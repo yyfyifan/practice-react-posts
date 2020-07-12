@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.posts .card {
+  position: relative;
+  margin: 20px 0;
+  padding: 30px 10px 10px 100px;
+  overflow: hidden;
+}
+
+.posts .card img {
+  position: absolute;
+  left: -80px;
+  top: 30%;
+  opacity: 0.8;
+}
+
+.posts .card a {
+  color: #333;
+}

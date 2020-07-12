@@ -1,0 +1,6 @@
+.menu {
+    /* background-color: pink; */
+}
+.menu > a[class=active]{
+    background-color: rgba(0, 0, 0, 0.1);
+}
